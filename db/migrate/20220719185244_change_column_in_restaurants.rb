@@ -3,3 +3,4 @@ class ChangeColumnInRestaurants < ActiveRecord::Migration[6.1]
     change_column :restaurants, :phone_number, :string
   end
 end
+
