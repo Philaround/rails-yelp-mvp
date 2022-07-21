@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   post 'restaurants', to: 'restaurants#create'
   get 'restaurants/new', to: 'restaurants#new'
 
+  get 'restaurants/:id', to: 'restaurants#show', as: :restaurant
+
 
 
 end
