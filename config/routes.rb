@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'restaurants/:id', to: 'restaurants#show', as: :restaurant
 
+  
+
 
 
 end
